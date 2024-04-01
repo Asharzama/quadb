@@ -52,7 +52,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 80vw;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .task-list li button {
@@ -82,4 +82,38 @@ body {
 .completed {
   text-decoration: line-through;
   color: grey;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .input-area input {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  .input-area button {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  .task-list {
+    font-size: 16px;
+    margin: 18px 0;
+  }
+  .task-list li {
+    border-radius: 8px;
+    padding: 5px 10px;
+  }
+  .task-list li button {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 3px;
+  }
+  .task-list li label input {
+    height: 18px;
+    width: 18px;
+  }
 }
